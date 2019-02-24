@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    background: url(img/top.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2rem;
+}
+p {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 200%;
+    line-height: 190%;
+    margin: 3%;
+}
+.list{
+    padding: 3em;
+}
+  
+.content {
+    max-width: 800px;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+.content h1 {    
+    font-family: 'Noto Sans SC', sans-serif;
+    color: #000000;
+    font-size: 550%;
+    text-shadow:3px 3px #FFF;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    padding: 1rem;
+}
+
+ul li {
+    line-height: 1.5;
+    padding: 0.5em;
+    font-size: 140%;
+    text-align: left;
+    list-style-type: none!important;/*ポチ消す*/
+  }
+.fa-dizzy{
+    color: #9370DB;
+    font-size: 150%;
+}
+
+.fa-grin-hearts{
+    color: #9370DB;
+    font-size: 150%;
+}
+
+.fa-smile-wink{
+    color: #9370DB;
+    font-size: 150%;
+}
+
+.jumbotron {
+    padding: 6rem;
+    border-radius: 0;
+    background-color: #E6E6FA;
+  }
+
+.margin {
+    margin: 0 auto;
+    padding: 4em 0;
+}
+.em {
+    color: #FF3366;
+}  
+.kome {
+    font-size: 80%;
+    text-align: left;
+}
+
+.contact {
+    padding: 2em;
+    text-align: center;
+}
+
+.fa-envelope, .fa-twitter{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-twitter, .fa-envelope {
+    color: #9370DB;
+  }
+
+.fa-envelope:hover,
+.fa-twitter:hover {
+  color: #00aced;
+}
+.img-responsive {
+    height: auto;
+    max-width: 80%;
+  }
+
+footer{
+    text-align: center;
+    background-color: #E6E6FA;
+    font-size: 60%;
+    padding-top: 2%;
+    width:100%;
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
